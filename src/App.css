@@ -1,0 +1,92 @@
+:root {
+  --primary: #2b2d42;
+  --primary-light: #2b2d42;
+  --primary-dark: #2a2c41;
+
+  --secondary: #bfbfbf;
+  --secondary-light: #c0c0c0;
+  --secondary-dark: #bdbdbd;
+
+  --neutral-light: #F5F5F5;
+  --neutral-dark: #212121;
+
+  --success: #4CAF50;
+  --warning: #FF9800;
+  --error: #F44336;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.hero-section {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+.features-section {
+  background-color: var(--neutral-light);
+  color: var(--primary-dark);
+
+&  .card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+
+ &   .card-title {
+      font-size: 1.5rem;
+      color: var(--primary);
+    }
+  }
+}
+.testimonials-section {
+    background-color: var(--secondary);
+    color: var(--primary);
+    & .animated-title {
+        animation: fadeInDown 2s ease;
+    }
+
+    & .testimonial-card {
+        border: none;
+        border-radius: 1rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: translateY(-10px);
+        }
+
+        & .customer-img {
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            height: 200px;
+        }
+
+        & .card-title {
+            font-size: 1.5rem;
+            color: var(--primary-dark);
+        }
+
+        & .card-text {
+            font-size: 1.2rem;
+        }
+
+    }
+    & .text-and-name{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
