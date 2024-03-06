@@ -9,7 +9,7 @@ export const HeroSection = () => {
     >
       <Container>
         <Row>
-          <div className="flex d-flex justify-content-end align-items-end">
+          <div className="flex d-flex justify-content-between align-items-end">
             <div>
               <h1 className="display-1">WealthSphere</h1>
               <p className="lead">Your All-in-One Personal Finance Solution</p>
@@ -17,7 +17,7 @@ export const HeroSection = () => {
                 Create Your Account
               </Button>
             </div>
-            <div className="ms-2 ms-md-5">
+            <div id="sign-up-form" className="ms-2 ms-md-5">
               <InputGroup className="m-1 m-md-3 sm">
                 <InputGroup.Text id="basic-addon1">👤</InputGroup.Text>
                 <Form.Control

@@ -7,7 +7,7 @@ export const FeaturesSection = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h2 className="mb-5">Our Features</h2>
+                        <h2 className="mb-5">What We Can Offer</h2>
                     </Col>
                 </Row>
                 <Row>

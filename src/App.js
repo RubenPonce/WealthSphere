@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {HeroSection} from "./components/HeroSection";
 import {FeaturesSection} from "./components/FeatureSection";
 import {TestimonialsSection} from "./components/TestimonialsSection";
+import { Header } from './components/Header';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 
       </header>
       <body>
+    <Header />    
       <HeroSection />
       <FeaturesSection />
       <TestimonialsSection />
