@@ -40,7 +40,6 @@ body {
   }
 }
 .testimonials-section {
-    background-color: var(--secondary);
     color: var(--primary);
     & .animated-title {
         animation: fadeInDown 2s ease;
@@ -89,4 +88,21 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
+}
+footer{
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & a {
+        color: var(--secondary);
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+        }
 }

@@ -14,7 +14,7 @@ export const TestimonialsSection = () => {
         img: guy1,
       },
       {
-        name: "Jennifer Utopia",
+        name: "Jennifer Cat",
         text: "WealthSphere is the best thing that's ever happened to me. I can't imagine life without it!",
         img: "https://placekitten.com/150/150",
       },

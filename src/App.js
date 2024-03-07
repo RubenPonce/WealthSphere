@@ -4,19 +4,19 @@ import {HeroSection} from "./components/HeroSection";
 import {FeaturesSection} from "./components/FeatureSection";
 import {TestimonialsSection} from "./components/TestimonialsSection";
 import { Header } from './components/Header';
+import { NewsAndInformation } from './components/NewsAndInformation';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-      </header>
       <body>
-    <Header />    
-      <HeroSection />
-      <FeaturesSection />
-      <TestimonialsSection />
-      <div className="section pricing">Pricing Plans</div>
+        <Header />
+        <HeroSection />
+        <FeaturesSection />
+        <TestimonialsSection />
+        <NewsAndInformation />
+        <Footer />
       </body>
     </div>
   );
