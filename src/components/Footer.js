@@ -4,7 +4,7 @@ export const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <h5>Company</h5>
+                        <h5>WealthSphere</h5>
                         <ul>
                             <li>About Us</li>
                             <li>Our Services</li>
