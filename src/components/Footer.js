@@ -3,7 +3,7 @@ export const Footer = () => {
         <footer className="footer-section py-5">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 first-row">
                         <h5>WealthSphere</h5>
                         <ul>
                             <li>About Us</li>
@@ -12,7 +12,7 @@ export const Footer = () => {
                             <li>Terms and Conditions</li>
                         </ul>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 second-row">
                         <h5>Support</h5>
                         <ul>
                             <li>Contact Us</li>
@@ -20,7 +20,7 @@ export const Footer = () => {
                             <li>Help Center</li>
                         </ul>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 third-row">
                         <h5>Connect</h5>
                         <ul>
                             <li>Facebook</li>

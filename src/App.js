@@ -6,6 +6,7 @@ import {TestimonialsSection} from "./components/TestimonialsSection";
 import { Header } from './components/Header';
 import { NewsAndInformation } from './components/NewsAndInformation';
 import { Footer } from './components/Footer';
+import { CustomerWhy } from './components/CustomerWhy';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <HeroSection />
         <FeaturesSection />
+        <CustomerWhy />
         <TestimonialsSection />
         <NewsAndInformation />
         <Footer />
