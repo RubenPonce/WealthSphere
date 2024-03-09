@@ -3,8 +3,8 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 export const FeaturesSection = () => {
     return (
-        <div className="features-section text-center py-5">
-            <Container>
+        <div className="features-section text-center py-5" id="features">
+            <Container className='new-section'>
                 <Row>
                     <Col>
                         <h2 className="mb-5">What We Can Offer</h2>

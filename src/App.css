@@ -111,7 +111,7 @@ footer{
    }
    .why-img{
 border-radius: 1rem;
-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);   
     }
    
 .first-row{
@@ -165,4 +165,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+.new-section{
+    padding: 3rem 1rem;  
 }

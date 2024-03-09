@@ -1,7 +1,7 @@
 export const Footer = () => {
     return (
         <footer className="footer-section py-5">
-            <div className="container">
+            <div className="container new-section">
                 <div className="row">
                     <div className="col-md-4 first-row">
                         <h5>WealthSphere</h5>

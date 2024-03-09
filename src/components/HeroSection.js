@@ -7,9 +7,9 @@ export const HeroSection = () => {
       className="hero-section bg-primary text-white text-center py-5"
       style={{ maxWidth: "133rem" }}
     >
-      <Container>
+      <Container className="new-section">
         <Row>
-          <div className="flex d-flex justify-content-end align-items-end">
+          <div className="flex d-flex justify-content-between align-items-end">
             <div>
               <h1 className="display-1">WealthSphere</h1>
               <p className="lead">Your All-in-One Personal Finance Solution</p>

@@ -2,8 +2,8 @@ import landscape from '../assets/landscape.png';
 import {Container, Row, Col, Card, Button} from 'react-bootstrap';
 export const NewsAndInformation = () => {
     return (
-        <div className="news-and-information-section py-5" style={{backgroundImage: `url(${landscape})`, height: 500}} >
-        <Container>
+        <div className="news-and-information-section py-5" style={{backgroundImage: `url(${landscape})`}} >
+        <Container className='new-section'>
             <Row>
             <Col>
                 <h2 className="mb-5">News and Information</h2>

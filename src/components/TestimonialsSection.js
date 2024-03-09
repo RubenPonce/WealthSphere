@@ -21,8 +21,8 @@ export const TestimonialsSection = () => {
     ];
 
     return (
-      <div className="testimonials-section text-center py-5">
-        <Container>
+      <div className="testimonials-section text-center py-5" id="testimonials">
+        <Container className='new-section'>
           <Row>
             <Col>
               <h2 className="mb-5 animated-title">

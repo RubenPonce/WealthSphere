@@ -7,6 +7,7 @@ import { Header } from './components/Header';
 import { NewsAndInformation } from './components/NewsAndInformation';
 import { Footer } from './components/Footer';
 import { CustomerWhy } from './components/CustomerWhy';
+import { Pricing } from './components/Pricing';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <CustomerWhy />
         <TestimonialsSection />
         <NewsAndInformation />
+        <Pricing />
         <Footer />
       </body>
     </div>
